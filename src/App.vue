@@ -8,6 +8,7 @@
 // import HelloWorld from './components/HelloWorld.vue'
 import ParantsComponent from './components/ParantsComponent.vue'
 
+import './assets/tailwind.css'
 export default {
   name: 'App',
   components: {
