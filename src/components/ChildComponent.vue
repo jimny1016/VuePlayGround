@@ -1,7 +1,7 @@
 <template>
   <div>
     <p>{{ message }}</p>
-    <button @click="emitEvent">Emit Event to Parent</button>
+    <button class="bg-blue-100 border rounded-md p-4" @click="emitEvent">Emit Event to Parent</button>
   </div>
 </template>
 

@@ -7,7 +7,7 @@
     </div>
   </div>
     <h1>{{ title }}</h1>
-    <button @click="greet">Say Hello</button>
+    <button class="bg-blue-100 border rounded-md p-4" @click="greet">Say Hello</button>
     <!-- 使用 v-if 控制列表的顯示 -->
     <ul v-if="showList">
       <!-- 使用 v-for 渲染一個列表 -->
